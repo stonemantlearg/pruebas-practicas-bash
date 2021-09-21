@@ -20,3 +20,26 @@ Al utilizar indicadores como los previamente mencionados se vuelve un script por
 Si el path dado al script no es correcto, imprimirá un mensaje de "Command not found." <br>
 
 Si hay algo en la primera linea, el sha-bang pasará a ser considerado un comentario. 
+
+
+# Caracteres Especiales
+
+Los comentarios pueden aparecer en cualquier parte del script pero el # que inicia los comentarios puede estar en diferentes lugares que lo harían no formar parte del comentario. Por ejemplo: <br>
+
+echo "the # here does not begin a comment" <br>
+echo 'the # here does not begin a comment' <br>
+echo the /# here does not begin a comment <br>
+echo the # here begins a comment <br>
+
+echo ${PATH#*:} # Está substituyendo un parámetro, no haciendo un comentario. <br>
+echo $(( 2#101011 ))  # Conversión, no hace comentario. <br>
+
+"" '' \ se consideran "quoting and escape", por lo cual no pueden tener un comentario dentro. <br>
+<ol>
+<li> "" -> También preserva la mayoría de los caracteres de ser interpretados.</li>
+<li> '' -> Conserva TODOS los caracteres de ser interpretados.</li>
+<li> , -> separa operaciones aritméticas y puede concatenar strings.</li>
+<li> ... -> "Operación no hacer nada" </li>
+<li> * -> wildcard o multiplicación aritmética </li>
+<li> ? -> Operador de testeo (EJ: condición? result-if-true:result-if-false) </li>
+</ol>
