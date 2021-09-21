@@ -16,4 +16,7 @@ Indicadores de que lo que va a correrse es un script de shell; el #! en realidad
 #!/bin/sed -f <br>
 #!/bin/awk -f <br>
 
+Al utilizar indicadores como los previamente mencionados se vuelve un script portable a sistemas que no son Linux; aunque se sacrifican algunas utilidades de Bash. <br>
+Si el path dado al script no es correcto, imprimirá un mensaje de "Command not found." <br>
 
+Si hay algo en la primera linea, el sha-bang pasará a ser considerado un comentario. 

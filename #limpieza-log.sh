@@ -1,4 +1,3 @@
-#limpieza-log
 #!/bin/bash
 #limpieza de /log/ mejorada
 #ejecutar como root

@@ -1,4 +1,3 @@
-#Limpieza-Log-Ultima
 #!/bin/bash
 #Cleanup Ultima Version
 
