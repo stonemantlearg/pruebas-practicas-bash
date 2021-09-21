@@ -1,4 +1,4 @@
-Ejemplo 6
+#Ejemplo 6
 
 (( var = var1<98?9:21 ))
 
