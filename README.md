@@ -6,7 +6,7 @@ pruebas y practicas de bash
 
 
 # sha-bang(#!)
-Indicadores de que lo que va a correrse es un script de shell; el #! en realidad es un magic number que indica el file type 
+Indicadores de que lo que va a correrse es un script de shell; el #! en realidad es un magic number que indica el file type <br>
 (Más info = https://en.wikipedia.org/wiki/Magic_number_(programming) )
 
 #!/bin/sh  <br>
