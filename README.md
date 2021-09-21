@@ -41,5 +41,19 @@ echo $(( 2#101011 ))  # Conversión, no hace comentario. <br>
 <li> , -> separa operaciones aritméticas y puede concatenar strings.</li>
 <li> ... -> "Operación no hacer nada" </li>
 <li> * -> wildcard o multiplicación aritmética </li>
-<li> ? -> Operador de testeo (EJ: condición? result-if-true:result-if-false) </li>
+<li> ? -> Operador de testeo (EJ: condición? result-if-true:result-if-false) o wild card de un solo caracter</li>
+<li> $ -> Sustitución de variables o final de linea en una expresión regular </li>
+<li> ${} -> Sustitución de parámetros </li>
+<li> () -> Grupo de comandos o inicio de un array, doble es expansión de integral </li>
+<li> {} -> bloque de código, expansión de braces o extensión de brace expansion (EJ: {a..z} contiene todos los carácteres de A a Z) </li>
+<li> [] -> Test, elementos de un array, o rango de caracteres </li>
+<li> $[ ... ] -> Expansión de integral (EJ: A=3, B=7 / $[$A+$B] resulta en 10) </li>
+<li> >, &>, >&, <<, >>, <, <> -> redirección </li>
+<li> <,> -> Comparadores de strings, integrers, etc. </li>
+<li> \< , \>  -> limitación de palabras en expresiones regulares </li>
+<li> | -> pipe, pasa el resultado (stdout) de un comando dentro del input (stdin) de otro o a la shell. Se usa para vincular comanados. </li>
+<li> >| -> Redirección forzada </li>
+<li> & -> Los comandos seguidos por un & van a continuar ejecutandose pasivamente. </li>
+<li> && -> Operador lógico AND </li>
+<li> || -> operador lógico OR </li>
 </ol>
