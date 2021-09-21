@@ -9,11 +9,11 @@ pruebas y practicas de bash
 Indicadores de que lo que va a correrse es un script de shell; el #! en realidad es un magic number que indica el file type 
 (Más info = https://en.wikipedia.org/wiki/Magic_number_(programming) )
 
-#!/bin/sh
-#!/bin/bash
-#!/usr/bin/perl
-#!/usr/bin/tcl
-#!/bin/sed -f
-#!/bin/awk -f
+#!/bin/sh  <br>
+#!/bin/bash <br>
+#!/usr/bin/perl <br>
+#!/usr/bin/tcl <br>
+#!/bin/sed -f <br>
+#!/bin/awk -f <br>
 
 
