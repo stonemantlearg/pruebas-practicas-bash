@@ -2,6 +2,7 @@
 
 echo "Testeo de números pares | impares"
 read num
+re='^[0-9]+$'
 
 if [ $((num%2)) -eq 0 ]
 then echo "La variable es par"
