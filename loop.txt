@@ -1,7 +1,7 @@
-#declarar loop
+# declarar loop
 for (( i=0; i<10; i++ ))
 do
-#imprime variable
+# imprime variable
 echo "$i"
 done
 

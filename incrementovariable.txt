@@ -1,9 +1,9 @@
-#declaracion de variable
+# declaracion de variable
 VAR=1
 
 while [ $VAR -le 9 ]
-do cowsay "La variable esta llegando al mejor número, $VAR"
+do cowsay "La variable esta llegando al mejor nï¿½mero, $VAR"
 
-#Incrementa la variable para que suba
+# Incrementa la variable para que suba
 (( VAR++ ))
 done

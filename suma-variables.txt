@@ -1,14 +1,14 @@
-#declara el contenido de la carpeta con cowsay
+# declara el contenido de la carpeta con cowsay
 ls | cowsay
 
-#declarando variable 1
+# declarando variable 1
 num1=9
 
-#declarando variable 2
+# declarando variable 2
 num2=15
 
-#declarando fórmula
+# declarando fï¿½rmula
 num3=$(($num1+$num2))
 
-#total de la fórmula
+# total de la fï¿½rmula
 cowsay "La suma es:$num3"
