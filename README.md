@@ -65,4 +65,4 @@ En caso de dejar una variable vacía esta siempre tomará el valor  de "null"; i
 Ejemplo:
 
 <code> echo ${var=abc} # Resulta en abc </code> <br>
-<code> echo ${var=xyz} #Resulta en abc, ya que fue declarada previamente. </code>
+<code> echo ${var=xyz} # Resulta en abc, ya que fue declarada previamente. </code>
