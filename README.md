@@ -9,12 +9,12 @@ pruebas y practicas de bash
 Indicadores de que lo que va a correrse es un script de shell; el #! en realidad es un magic number que indica el file type <br>
 (Más info = https://en.wikipedia.org/wiki/Magic_number_(programming) )
 
-#!/bin/sh  <br>
-#!/bin/bash <br>
-#!/usr/bin/perl <br>
-#!/usr/bin/tcl <br>
-#!/bin/sed -f <br>
-#!/bin/awk -f <br>
+<code> #!/bin/sh </code> <br>
+<code> #!/bin/bash </code> <br>
+<code> #!/usr/bin/perl </code> <br>
+<code> #!/usr/bin/tcl </code> <br>
+<code> #!/bin/sed -f </code> <br>
+<code> #!/bin/awk -f </code> <br>
 
 Al utilizar indicadores como los previamente mencionados se vuelve un script portable a sistemas que no son Linux; aunque se sacrifican algunas utilidades de Bash. <br>
 Si el path dado al script no es correcto, imprimirá un mensaje de "Command not found." <br>
@@ -26,13 +26,13 @@ Si hay algo en la primera linea, el sha-bang pasará a ser considerado un coment
 
 Los comentarios pueden aparecer en cualquier parte del script pero el # que inicia los comentarios puede estar en diferentes lugares que lo harían no formar parte del comentario. Por ejemplo: <br>
 
-echo "the # here does not begin a comment" <br>
-echo 'the # here does not begin a comment' <br>
-echo the /# here does not begin a comment <br>
-echo the # here begins a comment <br>
+<code> echo "the # here does not begin a comment" </code> <br>
+<code> echo 'the # here does not begin a comment' </code> <br>
+<code> echo the /# here does not begin a comment </code> <br>
+<code> echo the # here begins a comment </code> <br>
 
-echo ${PATH#*:} # Está substituyendo un parámetro, no haciendo un comentario. <br>
-echo $(( 2#101011 ))  # Conversión, no hace comentario. <br>
+<code> echo ${PATH#*:} # Está substituyendo un parámetro, no haciendo un comentario. </code> <br>
+<code> echo $(( 2#101011 ))  # Conversión, no hace comentario. </code> <br>
 
 "" '' \ se consideran "quoting and escape", por lo cual no pueden tener un comentario dentro. <br>
 <ol>
