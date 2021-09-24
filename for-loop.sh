@@ -14,4 +14,6 @@ done
 
 echo; echo "Esto no parece muy saludable."
 
+# Por estar entre "" nos muestra todo en un listado en el mismo renglón, y por el echo 'nested' en otro echo nos dirá después el mensaje.
+
 exit 0
