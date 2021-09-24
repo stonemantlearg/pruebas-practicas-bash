@@ -61,3 +61,8 @@ echo $(( 2#101011 ))  # Conversión, no hace comentario. <br>
 # Variables
 
 En caso de dejar una variable vacía esta siempre tomará el valor  de "null"; incluso si es usada en un lugar en específico o para una función.
+
+Ejemplo:
+
+[Code] echo ${var=abc} # Resulta en abc
+echo ${var=xyz} #Resulta en abc, ya que fue declarada previamente. [/code]
