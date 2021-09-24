@@ -1,6 +1,7 @@
 # pruebas-practicas-bash
-pruebas y practicas de bash 
+pruebas y practicas de bash <br>
 
+disclaimer: ejercicios y demás tomados de https://tldp.org/LDP/abs/html/index.html
 
 # No olvidarse de correr el comando "chmod +x filename" nunca.
 
