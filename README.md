@@ -57,3 +57,7 @@ echo $(( 2#101011 ))  # Conversión, no hace comentario. <br>
 <li> && -> Operador lógico AND </li>
 <li> || -> operador lógico OR </li>
 </ol>
+
+# Variables
+
+En caso de dejar una variable vacía esta siempre tomará el valor  de "null"; incluso si es usada en un lugar en específico o para una función.
