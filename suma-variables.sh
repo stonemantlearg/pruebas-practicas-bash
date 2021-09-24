@@ -1,3 +1,4 @@
+#!/bin/bash
 # declara el contenido de la carpeta con cowsay
 ls | cowsay
 

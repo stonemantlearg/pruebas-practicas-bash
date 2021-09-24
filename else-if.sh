@@ -1,4 +1,5 @@
-cowsay "Dime un número"
+#!/bin/bash
+cowsay "Dime un nï¿½mero"
 read num
 
 if [ $num -gt 10 ];then
